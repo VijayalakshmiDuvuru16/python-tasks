@@ -1,0 +1,44 @@
+#create a list of 5 numbers and print its avg and sum
+a=[20,12,30,40,50]
+avg=sum(a)/len(a)
+print("sum:",sum(a))
+print("average:",avg)
+
+output:
+sum: 152
+average: 30.4
+
+#take 3 subject marks create a list and find its total and average marks
+sub1=int(input("enter marks:"))
+sub2=int(input("enter marks:"))
+sub3=int(input("enter marks:"))
+marks=[sub1,sub2,sub3]
+print(marks)
+total=sum(marks)
+average=sum(marks)/len(marks)
+print("total is",total)
+print("average is",average)
+
+output:
+enter marks: 90
+enter marks: 88
+enter marks: 78
+[90, 88, 78]
+total is 256
+average is 85.33333333333333
+
+#write a program that takes your age and print kid if age is lessthan 13, teen if age between is 13 and 19,adult if 20 and 59 else senior
+age=int(input("enter your age"))
+if age<13:
+    print("kid")
+elif age>=13 and age<=19:
+    print("teen")
+elif age >=20 and age<=59:
+    print("adult")
+else:
+    print("older")
+
+output:
+enter your age 13
+teen
+
